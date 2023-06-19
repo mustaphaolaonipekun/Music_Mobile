@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+}
+main {
+  background: #fff;
+  padding: 2rem 9%;
+  align-items: center;
+  text-align: left;
+}
+main h3:hover {
+  color: darkblue;
+  cursor: pointer;
+}
+main i:hover {
+  color: cadetblue;
+  cursor: pointer;
+}
+.person {
+  display: flex;
+  justify-content: space-between;
+  background-color: blueviolet;
+  height: 7%;
+  border-color: blueviolet;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  padding: 3px;
+}
+.person h3 {
+  font-size: 20px;
+  margin: 3px;
+  padding: 3px;
+  color: #fff;
+}
+.person h4 {
+  color: #fff;
+  font-size: 5px;
+  margin: 3px;
+}
+.person img {
+  margin-top: 10px;
+  border-radius: 45%;
+  width: 10%;
+  height: 40%;
+}
+
+.homes {
+  padding: 3px;
+  background-color: darkslateblue;
+  border-color: darkslateblue;
+  border-radius: 4px;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+.home i {
+  font-size: 20px;
+  margin: 3px;
+  padding: 5px;
+  color: #000;
+}
+.home h3 {
+  color: #fff;
+  font-size: 10px;
+}
+section {
+  background: darkslateblue;
+  height: auto;
+  padding: 5px;
+  width: 100%;
+}
+.discover {
+  padding: 5px;
+  background-image: url(e.JPG);
+  width: 100%;
+  height: 170px;
+}
+.discover h2 {
+  margin-top: 100px;
+  color: #fff;
+  padding: 15px;
+  font-size: 25px;
+}
+.latest {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3px;
+}
+section h3 {
+  font-size: 17px;
+  color: #fff;
+  margin: 2px;
+  padding: 2px;
+}
+.latest .late {
+  background-image: linear-gradient(darkblue, blueviolet);
+  width: 20%;
+  height: 90px;
+  display: block;
+  padding: 3px;
+  margin: 3px;
+  border-color: 3px double blueviolet;
+  border-radius: 4px;
+}
+.late img {
+  width: 30%;
+  height: 30px;
+  border-radius: 50%;
+  left: 100%;
+  margin-top: 30px;
+}
+.lap {
+  margin-left: 10px;
+}
+.late p {
+  color: #fff;
+  font-size: 1px;
+}
+.menus {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: darkslateblue;
+  color: darkgrey;
+  font-size: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
